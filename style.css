@@ -38,7 +38,7 @@ td:not([align]), th:not([align]) {
 
 section {
   width: 100%;
-  height: 110vh; }
+  min-height: 110vh; }
 
 /* @media screen and (max-width: 1281px){
     body {
@@ -46,40 +46,112 @@ section {
         scroll-behavior: smooth;
     }
 } */
-body .first-section {
-  background-image: url("/assets/mastehead.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white; }
-  body .first-section .logo-div {
-    display: flex;
-    align-items: center;
-    padding: 15px; }
-    body .first-section .logo-div .logo-img {
-      width: 20px; }
-    body .first-section .logo-div p {
-      padding: 2px; }
-  body .first-section .title-description {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    position: absolute;
-    bottom: 35px;
-    left: 55px; }
-    body .first-section .title-description h1 {
-      font-size: 45px;
-      padding: 3px; }
-    body .first-section .title-description p {
-      line-height: -1px; }
-body .div-second-section {
+body .main-section {
   display: flex;
   flex-direction: column;
-  color: silver;
-  padding: 50px; }
-  body .div-second-section h2 {
-    font-size: 35px;
-    color: black;
-    padding: 20px 0 20px 0; }
+  flex-wrap: nowrap; }
+  body .main-section .first-section {
+    background-image: url("/assets/mastehead.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white; }
+    body .main-section .first-section .logo-div {
+      display: flex;
+      align-items: center;
+      padding: 15px; }
+      body .main-section .first-section .logo-div .logo-img {
+        width: 20px; }
+      body .main-section .first-section .logo-div p {
+        padding: 2px; }
+    body .main-section .first-section .title-description {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      position: absolute;
+      bottom: 35px;
+      left: 55px; }
+      body .main-section .first-section .title-description h1 {
+        font-size: 45px;
+        padding: 3px; }
+      body .main-section .first-section .title-description p {
+        line-height: -1px; }
+  body .main-section .second-section {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body .main-section .second-section .div-second-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: silver;
+      width: 80%; }
+      body .main-section .second-section .div-second-section h2 {
+        font-size: 35px;
+        color: black;
+        padding: 20px 0 20px 0; }
+  body .main-section .container-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* padding: 50px; */ }
+    body .main-section .container-section div {
+      height: 60%; }
+    body .main-section .container-section h3 {
+      font-size: 30px;
+      padding: 0 0 10px 0; }
+    body .main-section .container-section aside {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px 20px 20px 0; }
+      body .main-section .container-section aside p {
+        padding: 20px 20px 20px 0; }
+    body .main-section .container-section .div-container-section {
+      width: 80%; }
+      body .main-section .container-section .div-container-section .design-div {
+        background-color: #e69ba0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 40px 0 40px; }
+      body .main-section .container-section .div-container-section .built-div {
+        background-color: #5f607d;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 40px 0 40px; }
+      body .main-section .container-section .div-container-section .Our-div {
+        background-image: url("/assets/box-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 40px 0 40px; }
+      body .main-section .container-section .div-container-section .sign-div {
+        background-image: url("/assets/box-bg-lg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 40px 0 40px; }
+      body .main-section .container-section .div-container-section .perfect-div {
+        background-color: #95c7a1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 40px 0 40px; }
+  body .main-section .third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
