@@ -53,4 +53,23 @@ body {
       }
        
     }
+
+    .div-second-section {
+        display: flex;
+        flex-direction: column;
+        color: rgb(192, 192, 192);
+        padding: 50px;
+        h2 {
+            font-size: 35px;
+            color: black;
+            padding: 20px 0 20px 0;
+        }
+
+    }
+
+    .container-section {
+        .design-div {
+            
+        }
+    }
  }

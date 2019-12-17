@@ -72,5 +72,14 @@ body .first-section {
       padding: 3px; }
     body .first-section .title-description p {
       line-height: -1px; }
+body .div-second-section {
+  display: flex;
+  flex-direction: column;
+  color: silver;
+  padding: 50px; }
+  body .div-second-section h2 {
+    font-size: 35px;
+    color: black;
+    padding: 20px 0 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
