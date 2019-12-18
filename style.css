@@ -210,59 +210,71 @@ body .main-section {
         padding: 20px; }
   body .main-section .section-five {
     width: 100%;
-    height: 600px;
+    min-height: 100vh;
     display: flex;
     justify-content: center; }
     body .main-section .section-five .div-section-five {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       width: 80%; }
-      body .main-section .section-five .div-section-five .legacy .yo {
-        padding: 10px;
-        border-radius: 7px;
-        background-color: #e2e2e2;
-        color: white; }
-      body .main-section .section-five .div-section-five .legacy h2 {
-        font-size: 30px; }
-      body .main-section .section-five .div-section-five .legacy p {
-        color: silver; }
-      body .main-section .section-five .div-section-five .legacy button {
-        height: 35px;
-        width: 100px;
-        border-radius: 7px;
-        background-color: #91c99e;
-        color: white;
-        border: none;
-        outline: none; }
-      body .main-section .section-five .div-section-five .legacy i {
-        color: #e2e2e2;
-        padding: 5px; }
-      body .main-section .section-five .div-section-five .popular .yo {
-        padding: 10px;
-        border-radius: 7px;
-        background-color: #b48ebc;
-        color: white; }
-      body .main-section .section-five .div-section-five .popular h2 {
-        font-size: 30px; }
-      body .main-section .section-five .div-section-five .popular p {
-        color: silver; }
-      body .main-section .section-five .div-section-five .popular button {
-        height: 35px;
-        width: 100px;
-        border-radius: 7px;
-        background-color: #91c99e;
-        color: white;
-        border: none;
-        outline: none; }
-      body .main-section .section-five .div-section-five .popular i {
-        color: #e2e2e2;
-        padding: 5px; }
+      body .main-section .section-five .div-section-five .legacy {
+        padding-top: 45px;
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column; }
+        body .main-section .section-five .div-section-five .legacy .yo {
+          padding: 10px;
+          border-radius: 7px;
+          background-color: #e2e2e2;
+          color: white; }
+        body .main-section .section-five .div-section-five .legacy h2 {
+          font-size: 30px; }
+        body .main-section .section-five .div-section-five .legacy p {
+          color: silver; }
+        body .main-section .section-five .div-section-five .legacy button {
+          height: 35px;
+          width: 100px;
+          border-radius: 7px;
+          background-color: #91c99e;
+          color: white;
+          border: none;
+          outline: none; }
+        body .main-section .section-five .div-section-five .legacy i {
+          color: #e2e2e2;
+          padding: 5px; }
+      body .main-section .section-five .div-section-five .popular {
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 45px; }
+        body .main-section .section-five .div-section-five .popular .yo {
+          padding: 10px;
+          border-radius: 7px;
+          background-color: #b48ebc;
+          color: white; }
+        body .main-section .section-five .div-section-five .popular h2 {
+          font-size: 30px; }
+        body .main-section .section-five .div-section-five .popular p {
+          color: silver; }
+        body .main-section .section-five .div-section-five .popular button {
+          height: 35px;
+          width: 100px;
+          border-radius: 7px;
+          background-color: #91c99e;
+          color: white;
+          border: none;
+          outline: none; }
+        body .main-section .section-five .div-section-five .popular i {
+          color: #e2e2e2;
+          padding: 5px; }
   body .main-section .last-section {
     background-color: #1a2431;
     width: 100%;
-    color: white;
+    color: silver;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -273,7 +285,7 @@ body .main-section {
         padding: 20px 20px 20px 0; }
       body .main-section .last-section .div-last-section input {
         width: 80%;
-        height: 40px;
+        height: 42px;
         border-radius: 4px 1px 1px 4px;
         border: none; }
       body .main-section .last-section .div-last-section button {
@@ -285,7 +297,7 @@ body .main-section {
       body .main-section .last-section .div-last-section .input-and-text .policy {
         font-size: 12px;
         color: #aaa8a8;
-        padding-top: 1px; }
+        padding-top: 2px; }
       body .main-section .last-section .div-last-section .list {
         display: flex;
         flex-direction: row;
