@@ -69,7 +69,7 @@ body .main-section {
       flex-direction: column;
       width: 40%;
       position: absolute;
-      bottom: 280px;
+      bottom: 100px;
       left: 55px; }
       body .main-section .first-section .title-description h1 {
         font-size: 45px;
@@ -194,6 +194,61 @@ body .main-section {
         padding: 20px 20px 20px 0; }
   body .main-section .green-background-section {
     background-color: #95c7a1;
-    color: white; }
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body .main-section .green-background-section .div-green-background-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 75%; }
+      body .main-section .green-background-section .div-green-background-section h2 {
+        font-size: 30px;
+        padding: 20px; }
+      body .main-section .green-background-section .div-green-background-section p {
+        padding: 20px; }
+  body .main-section .section-five {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    body .main-section .section-five .div-section-five {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%; }
+      body .main-section .section-five .div-section-five .legacy .yo {
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #e2e2e2;
+        color: white; }
+      body .main-section .section-five .div-section-five .legacy h2 {
+        font-size: 30px; }
+      body .main-section .section-five .div-section-five .legacy button {
+        height: 35px;
+        width: 100px;
+        border-radius: 7px;
+        background-color: #91c99e;
+        color: white; }
+      body .main-section .section-five .div-section-five .legacy i {
+        color: #e2e2e2;
+        padding: 5px; }
+      body .main-section .section-five .div-section-five .popular .yo {
+        padding: 10px;
+        border-radius: 7px;
+        background-color: #b48ebc;
+        color: white; }
+      body .main-section .section-five .div-section-five .popular h2 {
+        font-size: 30px; }
+      body .main-section .section-five .div-section-five .popular button {
+        height: 35px;
+        width: 100px;
+        border-radius: 7px;
+        background-color: #91c99e;
+        color: white; }
+      body .main-section .section-five .div-section-five .popular i {
+        color: #e2e2e2;
+        padding: 5px; }
 
 /*# sourceMappingURL=style.css.map */

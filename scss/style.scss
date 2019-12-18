@@ -6,7 +6,6 @@ section {
 
 
 
-
 /* @media screen and (max-width: 1281px){
     body {
         background: yellow;
@@ -47,7 +46,7 @@ body {
           width: 40%;
 
           position: absolute;
-          bottom: 280px;
+          bottom: 100px;
           left: 55px;
           h1 {
             font-size: 45px;
@@ -227,6 +226,96 @@ body {
     .green-background-section {
         background-color:  rgb(149, 199, 161);
         color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .div-green-background-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 75%;
+            h2 {
+                font-size: 30px;
+                padding: 20px;
+            }
+            p {
+                padding: 20px;
+            }
+            
+
+        }
     }
+    .section-five {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .div-section-five {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+
+            .legacy {
+                .yo {
+                    
+                    padding: 10px;
+                    border-radius: 7px;
+                    background-color: rgb(226, 226, 226);
+                    color: white;
+                }
+                h2 {
+                    font-size: 30px;
+                }
+                button {
+                    height: 35px;
+                    width: 100px;
+                    border-radius: 7px;
+                    background-color: rgb(145, 201, 158);
+                    color: white;
+                }
+
+                i {
+                    color: rgb(226, 226, 226);
+                    padding: 5px;
+
+                }
+                
+            }
+
+            .popular {
+                .yo {
+                    padding: 10px;
+                    border-radius: 7px;
+                    background-color: rgb(180, 142, 188);
+                    color: white;
+                }
+                h2 {
+                    font-size: 30px;
+                }
+                button {
+                    height: 35px;
+                    width: 100px;
+                    border-radius: 7px;
+                    background-color: rgb(145, 201, 158);
+                    color: white;
+                    
+                }
+
+                i {
+                    color: rgb(226, 226, 226);
+                    padding: 5px;
+                    
+                
+                }
+
+            }
+            }
+            
+        
+        }
+
     }
+    
 }
