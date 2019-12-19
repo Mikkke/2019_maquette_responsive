@@ -3,7 +3,8 @@ section {
     width: 100%;
     min-height: 80vh;
 }
-
+/* 768 px - 991 px
+992 px - 1199 px */
 
 
 /* @media screen and (max-width: 1281px){
@@ -14,10 +15,12 @@ section {
 } */
 
 body {
+    font-family: 'Open Sans', sans-serif;
     .main-section {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        width: 100%;
     .first-section {
       background-image: url("/assets/mastehead.jpg");
       background-repeat: no-repeat;
@@ -46,14 +49,15 @@ body {
           width: 40%;
 
           position: absolute;
-          bottom: 270px;
-          left: 55px;
+          bottom: 290px;
+          left: 25px;
           h1 {
-            font-size: 45px;
+            font-size: 40px;
             padding: 3px;
           }
           p {
               line-height: -1px;
+              font-size: 10px;
           }
         
       }
@@ -71,9 +75,12 @@ body {
         color: rgb(192, 192, 192);
         width: 80%;
         h2 {
-            font-size: 35px;
+            font-size: 20px;
             color: black;
-            padding: 20px 0 20px 0;
+            padding: 20px 0 15px 0;
+        }
+        p {
+            font-size: 10px;
         }
 
     }
@@ -87,11 +94,14 @@ body {
         color: white;
         /* padding: 50px; */
         div {
-                height: 60%;
+                height: 50%;
         }
         h3 {
-            font-size: 30px;
+            font-size: 25px;
             padding: 0 0 10px 0;
+        }
+        p {
+            font-size: 10px;
         }
         aside {
             display: flex;
@@ -101,6 +111,7 @@ body {
             padding: 20px 20px 20px 0;
             p{
                 padding: 20px 20px 20px 0;
+                font-size: 15px;
         
             }
         }
@@ -162,13 +173,14 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding-bottom: 40px;
     .div-third-section {
         display: flex;
         flex-direction: column;
         color: rgb(192, 192, 192);
         width: 80%;
         h1 {
-            font-size: 35px;
+            font-size: 25px;
             color: black;
             padding: 18px;
             margin-top: 40px;
@@ -176,6 +188,7 @@ body {
         }
         p {
             padding: 18px;
+            font-size: 10px;
         } 
 
         }
@@ -197,12 +210,13 @@ body {
             width: 80%;
            
             h1 {
-                font-size: 55px;
+                font-size: 40px;
                 padding: 0 0 10px 0;
             }
             
             p{
                 padding: 0 20px 20px 0;
+                font-size: 10px;
         
             }
            
@@ -216,6 +230,7 @@ body {
            /*  padding: 20px 0 20px 0; */
             p{
                 padding: 20px 20px 20px 0;
+                font-size: 12px;
             }
 
         }
@@ -235,11 +250,13 @@ body {
             justify-content: center;
             width: 75%;
             h2 {
-                font-size: 30px;
+                font-size: 20px;
                 padding: 20px;
+                padding-top: 50px;
             }
             p {
-                padding: 20px;
+                padding: 18px;
+                font-size: 10px;
             }
             
 
@@ -269,16 +286,19 @@ body {
                     border-radius: 7px;
                     background-color: rgb(226, 226, 226);
                     color: white;
+                    width: 60px;
+                    height: 35px;
                 }
                 h2 {
-                    font-size: 30px;
+                    font-size: 25px;
                 }
                 p {
                 color: rgb(192, 192, 192);
+                font-size: 10px;
                 }
                 button {
+                    width: 75px;
                     height: 35px;
-                    width: 100px;
                     border-radius: 7px;
                     background-color: rgb(145, 201, 158);
                     color: white;
@@ -306,12 +326,14 @@ body {
                     border-radius: 7px;
                     background-color: rgb(180, 142, 188);
                     color: white;
+                    height: 35px;
                 }
                 h2 {
-                    font-size: 30px;
+                    font-size: 25px;
                 }
                 p {
                     color: rgb(192, 192, 192);
+                    font-size: 10px;
                 }
                 button {
                     height: 35px;
@@ -349,6 +371,7 @@ body {
                 width: 85%;
                 p {
                     padding: 20px 20px 20px 0;
+                    font-size: 10px;
                 }
 
                 input {
@@ -367,7 +390,7 @@ body {
             }
             .input-and-text {
                 .policy{
-                    font-size: 12px;
+                    font-size: 8px;
                     color: rgb(170, 168, 168);
                     padding-top: 2px;
                 }
@@ -384,6 +407,7 @@ body {
                     padding: 20px 20px 20px 0;
                     li {
                         padding-top: 10px;
+                        font-size: 12px;
                     }
                 }
 
