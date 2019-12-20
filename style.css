@@ -40,6 +40,15 @@ section {
   width: 100%;
   min-height: 80vh; }
 
+.img-phone {
+  z-index: 999;
+  display: none;
+  background-image: url("assets/iphone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px; }
+
 /* 768 px - 991 px
 992 px - 1199 px */
 /* @media screen and (max-width: 1281px){
@@ -331,5 +340,28 @@ body {
             body .main-section .last-section .div-last-section .list ul li {
               padding-top: 10px;
               font-size: 12px; }
+
+@media only screen and (min-width: 1224px) {
+  .main-section .first-section {
+    position: relative; }
+    .main-section .first-section .title-description {
+      position: absolute;
+      padding-left: 165px; }
+  .main-section .second-section {
+    position: relative; }
+    .main-section .second-section .img-phone {
+      position: absolute;
+      display: block;
+      height: 800px;
+      left: 50%;
+      bottom: 400px; }
+    .main-section .second-section .div-second-section {
+      width: 10%; }
+  .main-section .container-section .div-container-section {
+    display: flex;
+    flex-direction: column; }
+  .main-section .third-section .div-third-section {
+    display: flex;
+    flex-direction: row; } }
 
 /*# sourceMappingURL=style.css.map */
