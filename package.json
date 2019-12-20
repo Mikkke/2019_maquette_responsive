@@ -1,0 +1,26 @@
+{
+  "name": "2019_maquette_responsive",
+  "version": "1.0.0",
+  "description": "Integration d'une maquette",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikkke/2019_maquette_responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikkke/2019_maquette_responsive/issues"
+  },
+  "homepage": "https://github.com/Mikkke/2019_maquette_responsive#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
